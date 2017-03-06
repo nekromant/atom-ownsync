@@ -1,0 +1,21 @@
+{
+  "name": "atom-ownsync",
+  "main": "./lib/atom-ownsync",
+  "version": "0.0.0",
+  "description": "A hacky configuration synchronisation tool",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-workspace": [
+      "atom-ownsync:create-config-package",
+      "atom-ownsync:install-config-package",
+      "atom-ownsync:show-tarball-info"
+  ]},
+"repository": "https://github.com/atom/atom-ownsync",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}
