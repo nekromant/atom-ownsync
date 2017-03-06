@@ -1,5 +1,6 @@
 {
   "atom-workspace": {
-    "ctrl-alt-o": "atom-ownsync:toggle"
+    "ctrl-alt-cmd-c": "atom-ownsync:create-config-package",
+    "ctrl-alt-cmd-i": "atom-ownsync:install-config-package"
   }
 }
