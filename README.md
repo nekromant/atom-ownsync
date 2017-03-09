@@ -6,9 +6,9 @@ ownCloud/nextCloud/DropBox/etc. This plugin relies on some external sync tool to
 WARNING: Don't use just yet, early alpha. Only been tested and works on linux, since it relies on GNU tar for creating tarballs
 
 # TODO:
-- [ X ] Implement basic config file tarballing
-- [ X ] Implement settings for configuration/archive names storage
-- [ X ] Update changed configuration on the fly
+- [X] Implement basic config file tarballing
+- [X] Implement settings for configuration/archive names storage
+- [X] Update changed configuration on the fly
 - [ ] Handle relative paths to tarball directory
 - [ ] Make sure this stuff works on windows
 - [ ] Make sure this stuff works on mac
