@@ -3,19 +3,20 @@
   "main": "./lib/atom-ownsync",
   "version": "0.0.0",
   "description": "A hacky configuration synchronisation tool",
-  "keywords": [
-  ],
+  "keywords": ["dropbox", "owncloud", "nextcloud", "synchronisation"],
   "activationCommands": {
     "atom-workspace": [
       "atom-ownsync:create-config-package",
       "atom-ownsync:install-config-package",
       "atom-ownsync:show-tarball-info"
-  ]},
-"repository": "https://github.com/atom/atom-ownsync",
-  "license": "MIT",
+    ]
+  },
+  "repository": "https://github.com/nekromant/atom-ownsync",
+  "license": "WTFPL",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
+    "cson": "^4.0.0"
   }
 }
