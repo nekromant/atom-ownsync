@@ -13,6 +13,10 @@
             {
               "label": "Restore from configuration tarball",
               "command": "atom-ownsync:install-config-package"
+            },
+            {
+            "label": "Show tarball information",
+            "command": "atom-ownsync:show-tarball-info"
             }
           ]
         }
