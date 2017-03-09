@@ -1,22 +1,18 @@
 {
-  "context-menu": {
-    "atom-text-editor": [
-      {
-        "label": "Toggle atom-ownsync",
-        "command": "atom-ownsync:toggle"
-      }
-    ]
-  },
   "menu": [
     {
-      "label": "Packages",
+      "label": "Backup/Restore",
       "submenu": [
         {
-          "label": "atom-ownsync",
+          "label": "Atom OwnSync",
           "submenu": [
             {
-              "label": "Toggle",
-              "command": "atom-ownsync:toggle"
+              "label": "Create configuration tarball",
+              "command": "atom-ownsync:create-config-package"
+            },
+            {
+              "label": "Restore from configuration tarball",
+              "command": "atom-ownsync:install-config-package"
             }
           ]
         }
