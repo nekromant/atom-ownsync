@@ -10,7 +10,12 @@ WARNING: Don't use just yet, early alpha. Only been tested and works on linux, s
 - [X] Implement settings for configuration/archive names storage
 - [X] Update changed configuration on the fly
 - [ ] Handle relative paths to tarball directory
+- [ ] Make tarball operation atomic
 - [ ] Make sure this stuff works on windows
 - [ ] Make sure this stuff works on mac
+- [ ] Check file modification dates to determine if tarballing is really needed
+- [ ] Automatically backup/restore on start/exit
+- [ ] ...
+- [ ] PROFIT!
 
 ![A screenshot of your package](https://f.cloud.github.com/assets/69169/2290250/c35d867a-a017-11e3-86be-cd7c5bf3ff9b.gif)
