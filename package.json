@@ -1,7 +1,7 @@
 {
   "name": "atom-ownsync",
   "main": "./lib/atom-ownsync",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "A hacky configuration synchronisation tool",
   "keywords": ["dropbox", "owncloud", "nextcloud", "synchronisation"],
   "activationCommands": {
@@ -11,6 +11,9 @@
       "atom-ownsync:show-tarball-info"
     ]
   },
+  "activationHooks": [
+      "core:loaded-shell-environment"
+  ],
   "repository": "https://github.com/nekromant/atom-ownsync",
   "license": "WTFPL",
   "engines": {
