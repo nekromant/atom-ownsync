@@ -1,9 +1,9 @@
 {
   "name": "atom-ownsync",
   "main": "./lib/atom-ownsync",
-  "version": "0.1.1",
-  "description": "A hacky configuration synchronisation tool",
-  "keywords": ["dropbox", "owncloud", "nextcloud", "synchronisation"],
+  "version": "0.1.2",
+  "description": "A hacky configuration synchronization tool",
+  "keywords": ["dropbox", "owncloud", "nextcloud", "synchronization"],
   "activationCommands": {
     "atom-workspace": [
       "atom-ownsync:create-config-package",
