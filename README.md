@@ -25,10 +25,10 @@ apm install atom-ownsync
 
 # Works under
 - [X] linux
-- [ ] mac
+- [X] mac
 - [ ] windows
 
-_WARNING_: This plugin is very early alpha. Only been tested and works on linux, since it relies on GNU tar for creating tarballs.
+_WARNING_: This plugin is very early alpha. Only been tested and works on linux and mac, since it relies on tar for creating tarballs. Windows support is on the way
 
 _HELP WANTED_: The author of this plugin is not very familiar with js/coffeescript being more a linux kernel dev. If you are a js guru and can spare a few minutes to do a proper code review I'd be very grateful
 
@@ -40,7 +40,7 @@ _HELP WANTED_: The author of this plugin is not very familiar with js/coffeescri
 - [ ] Multiple tarball directories
 - [ ] Make tarball operation atomic
 - [ ] Make sure this stuff works on windows
-- [ ] Make sure this stuff works on mac
+- [X] Make sure this stuff works on mac
 - [X] Check file modification dates to determine if tarballing is really needed
 - [X] Automatically restore on start
 - [ ] Automatically backup on exit
