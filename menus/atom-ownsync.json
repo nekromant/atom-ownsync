@@ -1,26 +1,19 @@
 {
-  "menu": [
-    {
-      "label": "Backup/Restore",
-      "submenu": [
-        {
-          "label": "Atom OwnSync",
-          "submenu": [
+    "menu": [{
+        "label": "Backup/Restore",
+        "submenu": [
             {
-              "label": "Create configuration tarball",
-              "command": "atom-ownsync:create-config-package"
+                "label": "Create configuration tarball",
+                "command": "atom-ownsync:create-config-package"
             },
             {
-              "label": "Restore from configuration tarball",
-              "command": "atom-ownsync:install-config-package"
+                "label": "Restore from configuration tarball",
+                "command": "atom-ownsync:install-config-package"
             },
             {
-            "label": "Show tarball information",
-            "command": "atom-ownsync:show-tarball-info"
+                "label": "Show tarball information",
+                "command": "atom-ownsync:show-tarball-info"
             }
-          ]
-        }
-      ]
-    }
-  ]
+        ]
+    }]
 }
